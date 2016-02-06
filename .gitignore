@@ -36,6 +36,8 @@
 *.suo
 *.filters
 *.user
+Debug
+Release
 
 # Folder
 debug/
