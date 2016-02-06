@@ -1,0 +1,115 @@
+﻿La génération a démarré 05/10/2015 11:21:41.
+     1>Projet "C:\Users\jipay\documents\visual studio 2013\Projects\CardGestion\CardGestion\CardGestion.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\SFML-2.3\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bonus.cpp Card.cpp Character.cpp Choice.cpp ClassicBonus.cpp Counter.cpp DamageBonus.cpp Edible.cpp EdibleGenerator.cpp EffectOnPlayerBonus.cpp Entity.cpp Equipment.cpp EquipmentGenerator.cpp Fighter.cpp FighterGenerator.cpp Game.cpp Hero.cpp Interface.cpp Key.h KeyGenerator.cpp main.cpp Monster.cpp NotFighterGenerator.cpp NotFighter.cpp SelectorEquipment.cpp SelectorMonster.cpp Weapon.cpp WeaponGenerator.cpp
+         Bonus.cpp
+         Card.cpp
+     1>Card.cpp(34): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Card.cpp(73): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Card.cpp(89): warning C4018: '<' : incompatibilité signed/unsigned
+         Character.cpp
+         Choice.cpp
+         ClassicBonus.cpp
+         Counter.cpp
+         DamageBonus.cpp
+         Edible.cpp
+         EdibleGenerator.cpp
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(28): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(24) : lors de la compilation de la fonction membre 'Generator<Edible>::Generator(const sf::Font &)' de la classe modèle
+                 EdibleGenerator.cpp(5) : voir la référence à l'instanciation de la fonction modèle 'Generator<Edible>::Generator(const sf::Font &)' en cours de compilation
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\EdibleGenerator.h(14) : voir la référence à l'instanciation de la classe modèle 'Generator<Edible>' en cours de compilation
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(27): warning C4101: 't' : variable locale non référencée
+         EffectOnPlayerBonus.cpp
+         Entity.cpp
+         Equipment.cpp
+     1>Equipment.cpp(26): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Equipment.cpp(50): warning C4018: '<' : incompatibilité signed/unsigned
+         EquipmentGenerator.cpp
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(28): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(24) : lors de la compilation de la fonction membre 'Generator<Equipment>::Generator(const sf::Font &)' de la classe modèle
+                 EquipmentGenerator.cpp(5) : voir la référence à l'instanciation de la fonction modèle 'Generator<Equipment>::Generator(const sf::Font &)' en cours de compilation
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\EquipmentGenerator.h(14) : voir la référence à l'instanciation de la classe modèle 'Generator<Equipment>' en cours de compilation
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(27): warning C4101: 't' : variable locale non référencée
+         Fighter.cpp
+         FighterGenerator.cpp
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(28): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(24) : lors de la compilation de la fonction membre 'Generator<Fighter>::Generator(const sf::Font &)' de la classe modèle
+                 FighterGenerator.cpp(5) : voir la référence à l'instanciation de la fonction modèle 'Generator<Fighter>::Generator(const sf::Font &)' en cours de compilation
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\FighterGenerator.h(17) : voir la référence à l'instanciation de la classe modèle 'Generator<Fighter>' en cours de compilation
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(27): warning C4101: 't' : variable locale non référencée
+         Game.cpp
+     1>Game.cpp(110): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Game.cpp(149): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Game.cpp(183): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Game.cpp(210): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Game.cpp(267): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Game.cpp(278): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Game.cpp(320): warning C4018: '<' : incompatibilité signed/unsigned
+         Hero.cpp
+     1>Hero.cpp(80): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Hero.cpp(112): warning C4018: '<' : incompatibilité signed/unsigned
+     1>Hero.cpp(123): warning C4018: '<' : incompatibilité signed/unsigned
+         Interface.cpp
+     1>Interface.cpp(5): warning C4244: 'argument' : conversion de 'unsigned int' en 'float', perte possible de données
+     1>Interface.cpp(26): warning C4244: 'argument' : conversion de 'unsigned int' en 'float', perte possible de données
+     1>Interface.cpp(40): warning C4244: '=' : conversion de 'const float' en 'int', perte possible de données
+     1>Interface.cpp(86): warning C4018: '<' : incompatibilité signed/unsigned
+         Key.h
+         KeyGenerator.cpp
+     1>KeyGenerator.cpp(20): warning C4018: '<' : incompatibilité signed/unsigned
+         Compilation en cours...
+         main.cpp
+         Monster.cpp
+         NotFighterGenerator.cpp
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(28): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(24) : lors de la compilation de la fonction membre 'Generator<NotFighter>::Generator(const sf::Font &)' de la classe modèle
+                 NotFighterGenerator.cpp(5) : voir la référence à l'instanciation de la fonction modèle 'Generator<NotFighter>::Generator(const sf::Font &)' en cours de compilation
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\NotFighterGenerator.h(15) : voir la référence à l'instanciation de la classe modèle 'Generator<NotFighter>' en cours de compilation
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(27): warning C4101: 't' : variable locale non référencée
+         NotFighter.cpp
+         SelectorEquipment.cpp
+         SelectorMonster.cpp
+         Weapon.cpp
+         WeaponGenerator.cpp
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(28): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(24) : lors de la compilation de la fonction membre 'Generator<Weapon>::Generator(const sf::Font &)' de la classe modèle
+                 WeaponGenerator.cpp(5) : voir la référence à l'instanciation de la fonction modèle 'Generator<Weapon>::Generator(const sf::Font &)' en cours de compilation
+                 c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\WeaponGenerator.h(15) : voir la référence à l'instanciation de la classe modèle 'Generator<Weapon>' en cours de compilation
+     1>c:\users\jipay\documents\visual studio 2013\projects\cardgestion\cardgestion\Generator.h(27): warning C4101: 't' : variable locale non référencée
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jipay\documents\visual studio 2013\Projects\CardGestion\Release\CardGestion.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\SFML-2.3\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jipay\documents\visual studio 2013\Projects\CardGestion\Release\CardGestion.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jipay\documents\visual studio 2013\Projects\CardGestion\Release\CardGestion.lib" /MACHINE:X86 /SAFESEH Release\Bonus.obj
+         Release\Card.obj
+         Release\Character.obj
+         Release\Choice.obj
+         Release\ClassicBonus.obj
+         Release\Counter.obj
+         Release\DamageBonus.obj
+         Release\Edible.obj
+         Release\EdibleGenerator.obj
+         Release\EffectOnPlayerBonus.obj
+         Release\Entity.obj
+         Release\Equipment.obj
+         Release\EquipmentGenerator.obj
+         Release\Fighter.obj
+         Release\FighterGenerator.obj
+         Release\Game.obj
+         Release\Hero.obj
+         Release\Interface.obj
+         Release\Key.obj
+         Release\KeyGenerator.obj
+         Release\main.obj
+         Release\Monster.obj
+         Release\NotFighterGenerator.obj
+         Release\NotFighter.obj
+         Release\SelectorEquipment.obj
+         Release\SelectorMonster.obj
+         Release\Weapon.obj
+         Release\WeaponGenerator.obj
+         Génération de code en cours
+         Fin de la génération du code
+         CardGestion.vcxproj -> C:\Users\jipay\documents\visual studio 2013\Projects\CardGestion\Release\CardGestion.exe
+     1>Génération du projet "C:\Users\jipay\documents\visual studio 2013\Projects\CardGestion\CardGestion\CardGestion.vcxproj" terminée (Rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:56.32

@@ -1,0 +1,47 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.out
+*.app
+
+# MVS
+*.snl
+*.vcxproj
+*.tlog
+*.lastbuildstate
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.filters
+*.user
+
+# Folder
+debug/
+lib/
+cmake_modules/
+SFML-2.3.2/
+
+# Cmake && idea
+.idea
